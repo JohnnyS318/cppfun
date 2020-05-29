@@ -1,3 +1,9 @@
+#bazel
+baze-out/
+bazel-cppfun/
+bazel-bin/
+bazel-testlogs/
+
 # Prerequisites
 *.d
 
