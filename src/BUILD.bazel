@@ -1,8 +1,15 @@
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
 
 cc_binary(
-    name = "main",
+    name = "fibonaci",
     srcs = glob(
-        include = ["main.cc"]
+        include = ["fibonaci.cc"]
+    )
+)
+
+cc_binary(
+    name = "factorial",
+    srcs = glob(
+        include = ["factorial.cc"]
     )
 )

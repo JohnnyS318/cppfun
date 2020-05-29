@@ -1,5 +1,5 @@
 #bazel
-baze-out/
+bazel-out/
 bazel-cppfun/
 bazel-bin/
 bazel-testlogs/
